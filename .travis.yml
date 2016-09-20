@@ -13,3 +13,4 @@ after_success:
     - brew update
     - brew install tree
     - tree
+    - echo $BUILT_PRODUCTS_DIR

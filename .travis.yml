@@ -4,7 +4,7 @@ xcode_project: Get WiFi Addresses.xcodeproj
 xcode_scheme: Get WiFi Addresses
 env:
   global:
-  - PROFILE_UUID=testy
+  - BUILT_PRODUCTS_DIR=testy
 notifications:
   email:
     on_success: change
